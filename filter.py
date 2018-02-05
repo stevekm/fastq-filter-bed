@@ -70,8 +70,9 @@ def read_targets(target_file):
     targets = []
     with open(target_file) as f:
         for line in f:
-            chrom, start, stop = line.split()
-            targets.append((chrom, int(start), int(stop)))
+            if len(line.split()) >= 3:
+                chrom, start, stop = line.split()[0:3]
+                targets.append((chrom, int(start), int(stop)))
     return(targets)
 
 def bam_target_qnames(bam_file, targets):
@@ -182,8 +183,12 @@ def main():
     args = sys.argv[1:]
 
     fastqs = args[0].split(',')
+    print("fastq files:")
+    print(fastqs)
 
     bams = args[1].split(',')
+    print("bam files:")
+    print(bams)
 
 
     sample = {
