@@ -2,6 +2,7 @@
 
 A set of scripts to filter .fastq.gz files based on regions in a .bed file
 
+
 ## Requirements:
 
 - source .fastq.gz files
@@ -11,6 +12,8 @@ A set of scripts to filter .fastq.gz files based on regions in a .bed file
 - .bed formatted file with genomic regions to filter for (`targets.bed`; example file included)
 
 These scripts will search the provided .bam file for all alignments that fall within the specified genomic regions, then extract the original sequences for those alignments from the .fastq.gz files. 
+
+- example input, output, and system logs included for illustration 
 
 ## Output
 
