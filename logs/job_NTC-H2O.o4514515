@@ -1,0 +1,43 @@
++ ./filter.py input_fastq/NTC-H2O_S1_L001_R2_001.fastq.gz,input_fastq/NTC-H2O_S1_L004_R2_001.fastq.gz,input_fastq/NTC-H2O_S1_L002_R1_001.fastq.gz,input_fastq/NTC-H2O_S1_L003_R2_001.fastq.gz,input_fastq/NTC-H2O_S1_L003_R1_001.fastq.gz,input_fastq/NTC-H2O_S1_L004_R1_001.fastq.gz,input_fastq/NTC-H2O_S1_L002_R2_001.fastq.gz,input_fastq/NTC-H2O_S1_L001_R1_001.fastq.gz input_bam/NTC-H2O.bam
+fastq files:
+['input_fastq/NTC-H2O_S1_L001_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L004_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L002_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L003_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L003_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L004_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L002_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L001_R1_001.fastq.gz']
+bam files:
+['input_bam/NTC-H2O.bam']
+{'fastq': ['input_fastq/NTC-H2O_S1_L001_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L004_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L002_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L003_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L003_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L004_R1_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L002_R2_001.fastq.gz', 'input_fastq/NTC-H2O_S1_L001_R1_001.fastq.gz'], 'bam': ['input_bam/NTC-H2O.bam'], 'qname': []}
+reading from .bam file: input_bam/NTC-H2O.bam
+read 36 unique qnames
+Fastq in: input_fastq/NTC-H2O_S1_L001_R2_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L001_R2_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L004_R2_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L004_R2_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L002_R1_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L002_R1_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L003_R2_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L003_R2_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L003_R1_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L003_R1_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L004_R1_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L004_R1_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L002_R2_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L002_R2_001.fastq.gz
+
+
+Fastq in: input_fastq/NTC-H2O_S1_L001_R1_001.fastq.gz
+Fastq out: output_fastq/NTC-H2O_S1_L001_R1_001.fastq.gz
+
+
+start time: 1517949793.18
+current time: 1517949798.08
+time_elapsed: 4.90278697014 seconds (0 minutes)
